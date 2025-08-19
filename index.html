@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do Website with Deadlines</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="index.html" class="active">To-Do</a>
+        <a href="done.html">Done</a>
+    </nav>
+
+    <div class="container">
+        <h1>📝 To-Do List</h1>
+
+        <!-- Input box with deadline -->
+        <div class="input-box">
+            <input type="text" id="taskInput" placeholder="Enter a new task...">
+            <input type="date" id="taskDate">
+            <input type="time" id="taskTime">
+            <button onclick="addTask()">Add</button>
+        </div>
+
+        <!-- To-Do Tasks -->
+        <h2>📌 Pending Tasks</h2>
+        <ul id="taskList"></ul>
+
+        <!-- Done Tasks -->
+        <h2>✅ Done Tasks</h2>
+        <ul id="doneList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

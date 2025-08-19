@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Done Tasks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="index.html">To-Do</a>
+        <a href="done.html" class="active">Done</a>
+    </nav>
+
+    <div class="container">
+        <h1>✅ Done Tasks</h1>
+
+        <!-- Form to add detailed done task -->
+        <div class="done-form">
+            <input type="text" id="doneName" placeholder="Task Name">
+            <input type="date" id="doneDate">
+            <input type="time" id="doneTime">
+            <textarea id="doneDesc" placeholder="Description..."></textarea>
+            <button onclick="addDoneTask()">Add Done Task</button>
+        </div>
+
+        <!-- List of completed tasks -->
+        <h2>📋 Completed List</h2>
+        <ul id="doneList"></ul>
+    </div>
+
+    <script src="done.js"></script>
+</body>
+
+</html>
