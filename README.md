@@ -38,7 +38,7 @@ A simple yet powerful **To-Do List Website** where users can:
 ---
 
 ## 🌐 Live Demo
-👉 [View on GitHub Pages](https://rootvishal.github.io/todo-website/)
+👉 [View on GitHub Pages](https://rootvishal.github.io/To-Do-Website/)
 
 ---
 
