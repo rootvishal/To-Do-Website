@@ -38,12 +38,7 @@ A simple yet powerful **To-Do List Website** where users can:
 ---
 
 ## 🌐 Live Demo
-👉 [View on GitHub Pages](https://your-username.github.io/todo-website/)
-
----
-
-## 📸 Screenshots
-_Add screenshots of your To-Do page and Done page here once hosted_
+👉 [View on GitHub Pages](https://rootvishal.github.io/todo-website/)
 
 ---
 
